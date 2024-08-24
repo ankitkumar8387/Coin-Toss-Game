@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(#e2a139, #f9d423);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.coin-container {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 500px;
+  width: 300px;
+  border-radius: 20px;
+}
+.heading {
+  color: #e2a139;
+  font-family: roboto;
+}
+.paragraph {
+  font-family: roboto;
+}
+.img {
+  height: 200px;
+  width: 200px;
+}
+.btn {
+  background-color: #f9d423;
+  color: #e2a139;
+  border-width: 0px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.result-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.result {
+  font-family: roboto;
+  margin: 10px;
+}
+.coin-container {
+  text-align: center;
+}
